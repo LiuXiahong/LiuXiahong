@@ -1,0 +1,1704 @@
+port: 7890
+socks-port: 7891
+allow-lan: true
+mode: Rule
+log-level: info
+external-controller: :9090
+proxies:
+  - {name: https://git.io/v9999, server: 167.88.61.60, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: https://git.io/v9999 2, server: 194.15.196.78, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: https://git.io/v9999 3, server: 167.88.61.60, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: https://git.io/v9999 4, server: 38.68.134.191, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: https://git.io/v9999 5, server: 38.68.134.191, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: https://git.io/v9999 6, server: 38.68.134.191, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: https://git.io/v9999 7, server: 194.15.196.106, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: https://git.io/v9999 8, server: 38.107.226.48, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: https://git.io/v9999 9, server: 194.15.196.106, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: https://git.io/v9999 10, server: 142.202.48.34, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: https://git.io/v9999 11, server: 134.195.196.81, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: https://git.io/v9999 12, server: 134.195.196.81, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: https://git.io/v9999 13, server: 134.195.196.128, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: https://git.io/v9999 14, server: 185.90.57.152, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: qSnstpCypymLvPeyLRqf}
+  - {name: https://git.io/v9999 15, server: 134.195.196.227, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: https://git.io/v9999 16, server: 134.195.196.81, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: https://git.io/v9999 17, server: 38.107.226.48, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: https://git.io/v9999 18, server: 134.195.196.81, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: https://git.io/v9999 19, server: 134.195.196.81, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: https://git.io/v9999 20, server: 134.195.196.81, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: https://git.io/v9999 21, server: 134.195.196.128, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: https://git.io/v9999 22, server: 134.195.196.81, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: https://git.io/v9999 23, server: 134.195.196.81, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: https://git.io/v9999 24, server: 194.15.196.78, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: https://git.io/v9999 25, server: 85.208.110.2, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: https://git.io/v9999 26, server: 134.195.196.128, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: https://git.io/v9999 27, server: 172.99.190.87, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: https://git.io/v9999 28, server: 134.195.196.227, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: https://git.io/v9999 29, server: 134.195.196.227, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: https://git.io/v9999 30, server: 134.195.196.128, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: https://git.io/v9999 31, server: 194.15.196.106, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: https://git.io/v9999 32, server: 134.195.196.81, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: https://git.io/v9999 33, server: 194.15.196.78, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: https://git.io/v9999 34, server: 194.15.196.78, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: https://git.io/v9999 35, server: 134.195.196.128, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: https://git.io/v9999 36, server: 134.195.196.128, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: https://git.io/v9999 37, server: 134.195.196.128, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: https://git.io/v9999 38, server: 194.15.196.78, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: https://git.io/v9999 39, server: 142.202.48.34, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: https://git.io/v9999 40, server: 194.15.196.78, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: https://git.io/v9999 41, server: 134.195.196.128, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: https://git.io/v9999 42, server: 194.15.196.78, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: https://git.io/v9999 43, server: 194.15.196.106, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: https://git.io/v9999 44, server: 145.239.1.100, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: https://git.io/v9999 45, server: 194.15.196.78, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: https://git.io/v9999 46, server: 194.15.196.78, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: https://git.io/v9999 47, server: 194.15.196.78, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: https://git.io/v9999 48, server: 167.88.61.60, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: https://git.io/v9999 49, server: 38.75.136.93, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: https://git.io/v9999 50, server: 194.15.196.106, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: https://git.io/v9999 51, server: 149.202.82.172, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: https://git.io/v9999 52, server: 85.208.110.2, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: https://git.io/v9999 53, server: 38.121.43.71, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: https://git.io/v9999 54, server: 38.121.43.71, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: https://git.io/v9999 55, server: 38.75.136.93, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: https://git.io/v9999 56, server: 149.202.82.172, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: https://git.io/v9999 57, server: 172.105.180.227, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: https://git.io/v9999 58, server: 212.38.189.174, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: https://git.io/v9999 59, server: 38.107.226.48, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: https://git.io/v9999 60, server: 145.239.1.100, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: https://git.io/v9999 61, server: 134.195.196.81, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: https://git.io/v9999 62, server: 212.38.189.174, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: https://git.io/v9999 63, server: 149.202.82.172, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: https://git.io/v9999 64, server: 62.210.209.50, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: https://git.io/v9999 65, server: 142.202.48.34, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: https://git.io/v9999 66, server: 38.68.134.191, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: https://git.io/v9999 67, server: 212.38.189.174, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: https://git.io/v9999 68, server: 167.88.61.60, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: https://git.io/v9999 69, server: 38.68.134.23, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: https://git.io/v9999 70, server: 149.202.82.172, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: https://git.io/v9999 71, server: 212.38.189.174, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: https://git.io/v9999 72, server: 145.239.1.100, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: https://git.io/v9999 73, server: 212.38.189.174, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: https://git.io/v9999 74, server: 212.38.189.174, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: https://git.io/v9999 75, server: 212.38.189.174, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: https://git.io/v9999 76, server: 62.210.209.50, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: https://git.io/v9999 77, server: 185.252.223.204, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/243535322906, headers: {Host: www.16675463.xyz}}}
+  - {name: https://git.io/v9999 78, server: 38.75.136.93, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: https://git.io/v9999 79, server: 38.121.43.91, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: https://git.io/v9999 80, server: 38.121.43.71, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: https://git.io/v9999 81, server: 38.68.134.191, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: https://git.io/v9999 82, server: 38.75.136.45, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: https://git.io/v9999 83, server: 38.68.134.191, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: https://git.io/v9999 84, server: 38.68.134.23, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: https://git.io/v9999 85, server: 38.121.43.91, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: https://git.io/v9999 86, server: 167.88.61.60, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: https://git.io/v9999 87, server: 38.68.134.191, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: https://git.io/v9999 88, server: 38.121.43.91, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: https://git.io/v9999 89, server: 38.121.43.91, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: https://git.io/v9999 90, server: 38.121.43.91, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: https://git.io/v9999 91, server: 38.121.43.91, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: https://git.io/v9999 92, server: 38.121.43.91, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: https://git.io/v9999 93, server: 38.121.43.71, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: https://git.io/v9999 94, server: 38.75.136.93, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: https://git.io/v9999 95, server: 38.121.43.71, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: https://git.io/v9999 96, server: 38.121.43.71, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: https://git.io/v9999 97, server: 38.121.43.71, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: https://git.io/v9999 98, server: 134.195.196.128, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: https://git.io/v9999 99, server: 38.121.43.91, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: https://git.io/v9999 100, server: 38.68.134.23, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: https://git.io/v9999 101, server: 38.75.136.45, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: https://git.io/v9999 102, server: 172.99.190.205, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: https://git.io/v9999 103, server: 38.121.43.91, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: https://git.io/v9999 104, server: 172.99.190.109, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: https://git.io/v9999 105, server: 172.99.190.109, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: https://git.io/v9999 106, server: 134.195.196.193, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: https://git.io/v9999 107, server: 172.99.190.87, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: https://git.io/v9999 108, server: 172.99.190.39, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: https://git.io/v9999 109, server: 172.99.190.39, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: https://git.io/v9999 110, server: 134.195.196.227, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: https://git.io/v9999 111, server: 134.195.196.81, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: https://git.io/v9999 112, server: 172.99.190.87, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: https://git.io/v9999 113, server: 134.195.196.227, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: https://git.io/v9999 114, server: 172.99.190.109, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: https://git.io/v9999 115, server: 134.195.196.128, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: https://git.io/v9999 116, server: 134.195.196.81, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: https://git.io/v9999 117, server: 134.195.196.81, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: https://git.io/v9999 118, server: 134.195.196.227, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: https://git.io/v9999 119, server: 134.195.196.227, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: https://git.io/v9999 120, server: 172.99.190.109, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: https://git.io/v9999 121, server: 134.195.196.81, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: https://git.io/v9999 122, server: 134.195.196.71, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: https://git.io/v9999 123, server: 134.195.196.81, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: https://git.io/v9999 124, server: 172.99.190.205, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: https://git.io/v9999 125, server: 134.195.196.81, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: https://git.io/v9999 126, server: 134.195.196.227, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: https://git.io/v9999 127, server: 38.75.136.93, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: https://git.io/v9999 128, server: 134.195.196.193, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: https://git.io/v9999 129, server: 134.195.196.128, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: https://git.io/v9999 130, server: 134.195.196.193, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: https://git.io/v9999 131, server: 172.99.190.39, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: https://git.io/v9999 132, server: 38.121.43.91, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: https://git.io/v9999 133, server: 134.195.196.81, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: https://git.io/v9999 134, server: 134.195.196.227, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: https://git.io/v9999 135, server: 134.195.196.227, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: https://git.io/v9999 136, server: 134.195.196.227, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: https://git.io/v9999 137, server: 134.195.196.128, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: https://git.io/v9999 138, server: 134.195.196.227, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: https://git.io/v9999 139, server: 134.195.196.227, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: https://git.io/v9999 140, server: 134.195.196.81, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: https://git.io/v9999 141, server: 134.195.196.227, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: https://git.io/v9999 142, server: 169.57.35.97, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: 3Q5yYEGGMu8jU2p25aWL}
+  - {name: https://git.io/v9999 143, server: 134.195.196.128, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: https://git.io/v9999 144, server: 134.195.196.81, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: https://git.io/v9999 145, server: 134.195.196.227, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: https://git.io/v9999 146, server: 134.195.196.81, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: https://git.io/v9999 147, server: 134.195.196.128, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: https://git.io/v9999 148, server: 134.195.196.81, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: https://git.io/v9999 149, server: 134.195.196.128, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: https://git.io/v9999 150, server: 134.195.196.227, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: https://git.io/v9999 151, server: 134.195.196.227, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: https://git.io/v9999 152, server: 134.195.196.128, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: https://git.io/v9999 153, server: 134.195.196.227, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: https://git.io/v9999 154, server: 134.195.196.227, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: https://git.io/v9999 155, server: 134.195.196.227, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: https://git.io/v9999 156, server: 134.195.196.227, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: https://git.io/v9999 157, server: 172.99.190.39, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: https://git.io/v9999 158, server: 134.195.196.71, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: https://git.io/v9999 159, server: 134.195.196.128, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: https://git.io/v9999 160, server: 134.195.196.71, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: https://git.io/v9999 161, server: 134.195.196.81, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: https://git.io/v9999 162, server: 134.195.196.227, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: https://git.io/v9999 163, server: 134.195.196.227, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: https://git.io/v9999 164, server: 134.195.196.193, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: https://git.io/v9999 165, server: 134.195.196.128, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: https://git.io/v9999 166, server: 134.195.196.81, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: https://git.io/v9999 167, server: 134.195.196.227, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: https://git.io/v9999 168, server: 134.195.196.81, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: https://git.io/v9999 169, server: 134.195.196.81, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: https://git.io/v9999 170, server: 134.195.196.128, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: https://git.io/v9999 171, server: 172.99.190.205, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: https://git.io/v9999 172, server: 134.195.196.227, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: https://git.io/v9999 173, server: 134.195.196.81, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: https://git.io/v9999 174, server: 38.107.226.48, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: https://git.io/v9999 175, server: 38.107.226.48, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: https://git.io/v9999 176, server: 134.195.196.227, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: https://git.io/v9999 177, server: 134.195.196.81, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: https://git.io/v9999 178, server: 134.195.196.128, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: https://git.io/v9999 179, server: 38.68.134.191, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: https://git.io/v9999 180, server: 134.195.196.81, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: https://git.io/v9999 181, server: 134.195.196.128, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: https://git.io/v9999 182, server: 38.107.226.48, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: https://git.io/v9999 183, server: 134.195.196.128, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: https://git.io/v9999 184, server: 134.195.196.81, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: https://git.io/v9999 185, server: 134.195.196.81, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: https://git.io/v9999 186, server: 134.195.196.128, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: https://git.io/v9999 187, server: 134.195.196.71, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: https://git.io/v9999 188, server: 134.195.196.81, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: https://git.io/v9999 189, server: 134.195.196.128, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: https://git.io/v9999 190, server: 134.195.196.71, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: https://git.io/v9999 191, server: 38.107.226.48, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: https://git.io/v9999 192, server: 134.195.196.81, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: https://git.io/v9999 193, server: 38.107.226.48, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: https://git.io/v9999 194, server: 134.195.196.128, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: https://git.io/v9999 195, server: 134.195.196.128, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: https://git.io/v9999 196, server: 134.195.196.128, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: https://git.io/v9999 197, server: 134.195.196.128, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: https://git.io/v9999 198, server: 134.195.196.128, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: https://git.io/v9999 199, server: 149.202.82.172, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: https://git.io/v9999 200, server: 149.202.82.172, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: https://git.io/v9999 201, server: 149.202.82.172, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: https://git.io/v9999 202, server: 149.202.82.172, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: https://git.io/v9999 203, server: 149.202.82.172, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: https://git.io/v9999 204, server: 194.15.196.78, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: https://git.io/v9999 205, server: v2ray.ifuckgfw.ga, port: 8443, type: vmess, uuid: 7fb9b440-7514-11ec-a376-52ac0014346a, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /nBaG3RmV/, headers: {Host: v2ray.ifuckgfw.ga}}}
+  - {name: https://git.io/v9999 206, server: 198.41.212.15, port: 443, type: vmess, uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /sakura/, headers: {Host: zero1.a-yu.xyz}}}
+  - {name: https://git.io/v9999 207, server: v2ray.ifuckgfw.ga, port: 8443, type: vmess, uuid: 7d578358-7514-11ec-a376-52ac0014346a, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /nBaG3RmV/, headers: {Host: v2ray.ifuckgfw.ga}}}
+proxy-groups:
+  - name: 🔰 节点选择
+    type: select
+    proxies:
+      - ♻️ 自动选择
+      - 🎯 直连
+      - https://git.io/v9999
+      - https://git.io/v9999 2
+      - https://git.io/v9999 3
+      - https://git.io/v9999 4
+      - https://git.io/v9999 5
+      - https://git.io/v9999 6
+      - https://git.io/v9999 7
+      - https://git.io/v9999 8
+      - https://git.io/v9999 9
+      - https://git.io/v9999 10
+      - https://git.io/v9999 11
+      - https://git.io/v9999 12
+      - https://git.io/v9999 13
+      - https://git.io/v9999 14
+      - https://git.io/v9999 15
+      - https://git.io/v9999 16
+      - https://git.io/v9999 17
+      - https://git.io/v9999 18
+      - https://git.io/v9999 19
+      - https://git.io/v9999 20
+      - https://git.io/v9999 21
+      - https://git.io/v9999 22
+      - https://git.io/v9999 23
+      - https://git.io/v9999 24
+      - https://git.io/v9999 25
+      - https://git.io/v9999 26
+      - https://git.io/v9999 27
+      - https://git.io/v9999 28
+      - https://git.io/v9999 29
+      - https://git.io/v9999 30
+      - https://git.io/v9999 31
+      - https://git.io/v9999 32
+      - https://git.io/v9999 33
+      - https://git.io/v9999 34
+      - https://git.io/v9999 35
+      - https://git.io/v9999 36
+      - https://git.io/v9999 37
+      - https://git.io/v9999 38
+      - https://git.io/v9999 39
+      - https://git.io/v9999 40
+      - https://git.io/v9999 41
+      - https://git.io/v9999 42
+      - https://git.io/v9999 43
+      - https://git.io/v9999 44
+      - https://git.io/v9999 45
+      - https://git.io/v9999 46
+      - https://git.io/v9999 47
+      - https://git.io/v9999 48
+      - https://git.io/v9999 49
+      - https://git.io/v9999 50
+      - https://git.io/v9999 51
+      - https://git.io/v9999 52
+      - https://git.io/v9999 53
+      - https://git.io/v9999 54
+      - https://git.io/v9999 55
+      - https://git.io/v9999 56
+      - https://git.io/v9999 57
+      - https://git.io/v9999 58
+      - https://git.io/v9999 59
+      - https://git.io/v9999 60
+      - https://git.io/v9999 61
+      - https://git.io/v9999 62
+      - https://git.io/v9999 63
+      - https://git.io/v9999 64
+      - https://git.io/v9999 65
+      - https://git.io/v9999 66
+      - https://git.io/v9999 67
+      - https://git.io/v9999 68
+      - https://git.io/v9999 69
+      - https://git.io/v9999 70
+      - https://git.io/v9999 71
+      - https://git.io/v9999 72
+      - https://git.io/v9999 73
+      - https://git.io/v9999 74
+      - https://git.io/v9999 75
+      - https://git.io/v9999 76
+      - https://git.io/v9999 77
+      - https://git.io/v9999 78
+      - https://git.io/v9999 79
+      - https://git.io/v9999 80
+      - https://git.io/v9999 81
+      - https://git.io/v9999 82
+      - https://git.io/v9999 83
+      - https://git.io/v9999 84
+      - https://git.io/v9999 85
+      - https://git.io/v9999 86
+      - https://git.io/v9999 87
+      - https://git.io/v9999 88
+      - https://git.io/v9999 89
+      - https://git.io/v9999 90
+      - https://git.io/v9999 91
+      - https://git.io/v9999 92
+      - https://git.io/v9999 93
+      - https://git.io/v9999 94
+      - https://git.io/v9999 95
+      - https://git.io/v9999 96
+      - https://git.io/v9999 97
+      - https://git.io/v9999 98
+      - https://git.io/v9999 99
+      - https://git.io/v9999 100
+      - https://git.io/v9999 101
+      - https://git.io/v9999 102
+      - https://git.io/v9999 103
+      - https://git.io/v9999 104
+      - https://git.io/v9999 105
+      - https://git.io/v9999 106
+      - https://git.io/v9999 107
+      - https://git.io/v9999 108
+      - https://git.io/v9999 109
+      - https://git.io/v9999 110
+      - https://git.io/v9999 111
+      - https://git.io/v9999 112
+      - https://git.io/v9999 113
+      - https://git.io/v9999 114
+      - https://git.io/v9999 115
+      - https://git.io/v9999 116
+      - https://git.io/v9999 117
+      - https://git.io/v9999 118
+      - https://git.io/v9999 119
+      - https://git.io/v9999 120
+      - https://git.io/v9999 121
+      - https://git.io/v9999 122
+      - https://git.io/v9999 123
+      - https://git.io/v9999 124
+      - https://git.io/v9999 125
+      - https://git.io/v9999 126
+      - https://git.io/v9999 127
+      - https://git.io/v9999 128
+      - https://git.io/v9999 129
+      - https://git.io/v9999 130
+      - https://git.io/v9999 131
+      - https://git.io/v9999 132
+      - https://git.io/v9999 133
+      - https://git.io/v9999 134
+      - https://git.io/v9999 135
+      - https://git.io/v9999 136
+      - https://git.io/v9999 137
+      - https://git.io/v9999 138
+      - https://git.io/v9999 139
+      - https://git.io/v9999 140
+      - https://git.io/v9999 141
+      - https://git.io/v9999 142
+      - https://git.io/v9999 143
+      - https://git.io/v9999 144
+      - https://git.io/v9999 145
+      - https://git.io/v9999 146
+      - https://git.io/v9999 147
+      - https://git.io/v9999 148
+      - https://git.io/v9999 149
+      - https://git.io/v9999 150
+      - https://git.io/v9999 151
+      - https://git.io/v9999 152
+      - https://git.io/v9999 153
+      - https://git.io/v9999 154
+      - https://git.io/v9999 155
+      - https://git.io/v9999 156
+      - https://git.io/v9999 157
+      - https://git.io/v9999 158
+      - https://git.io/v9999 159
+      - https://git.io/v9999 160
+      - https://git.io/v9999 161
+      - https://git.io/v9999 162
+      - https://git.io/v9999 163
+      - https://git.io/v9999 164
+      - https://git.io/v9999 165
+      - https://git.io/v9999 166
+      - https://git.io/v9999 167
+      - https://git.io/v9999 168
+      - https://git.io/v9999 169
+      - https://git.io/v9999 170
+      - https://git.io/v9999 171
+      - https://git.io/v9999 172
+      - https://git.io/v9999 173
+      - https://git.io/v9999 174
+      - https://git.io/v9999 175
+      - https://git.io/v9999 176
+      - https://git.io/v9999 177
+      - https://git.io/v9999 178
+      - https://git.io/v9999 179
+      - https://git.io/v9999 180
+      - https://git.io/v9999 181
+      - https://git.io/v9999 182
+      - https://git.io/v9999 183
+      - https://git.io/v9999 184
+      - https://git.io/v9999 185
+      - https://git.io/v9999 186
+      - https://git.io/v9999 187
+      - https://git.io/v9999 188
+      - https://git.io/v9999 189
+      - https://git.io/v9999 190
+      - https://git.io/v9999 191
+      - https://git.io/v9999 192
+      - https://git.io/v9999 193
+      - https://git.io/v9999 194
+      - https://git.io/v9999 195
+      - https://git.io/v9999 196
+      - https://git.io/v9999 197
+      - https://git.io/v9999 198
+      - https://git.io/v9999 199
+      - https://git.io/v9999 200
+      - https://git.io/v9999 201
+      - https://git.io/v9999 202
+      - https://git.io/v9999 203
+      - https://git.io/v9999 204
+      - https://git.io/v9999 205
+      - https://git.io/v9999 206
+      - https://git.io/v9999 207
+  - name: ♻️ 自动选择
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    proxies:
+      - https://git.io/v9999
+      - https://git.io/v9999 2
+      - https://git.io/v9999 3
+      - https://git.io/v9999 4
+      - https://git.io/v9999 5
+      - https://git.io/v9999 6
+      - https://git.io/v9999 7
+      - https://git.io/v9999 8
+      - https://git.io/v9999 9
+      - https://git.io/v9999 10
+      - https://git.io/v9999 11
+      - https://git.io/v9999 12
+      - https://git.io/v9999 13
+      - https://git.io/v9999 14
+      - https://git.io/v9999 15
+      - https://git.io/v9999 16
+      - https://git.io/v9999 17
+      - https://git.io/v9999 18
+      - https://git.io/v9999 19
+      - https://git.io/v9999 20
+      - https://git.io/v9999 21
+      - https://git.io/v9999 22
+      - https://git.io/v9999 23
+      - https://git.io/v9999 24
+      - https://git.io/v9999 25
+      - https://git.io/v9999 26
+      - https://git.io/v9999 27
+      - https://git.io/v9999 28
+      - https://git.io/v9999 29
+      - https://git.io/v9999 30
+      - https://git.io/v9999 31
+      - https://git.io/v9999 32
+      - https://git.io/v9999 33
+      - https://git.io/v9999 34
+      - https://git.io/v9999 35
+      - https://git.io/v9999 36
+      - https://git.io/v9999 37
+      - https://git.io/v9999 38
+      - https://git.io/v9999 39
+      - https://git.io/v9999 40
+      - https://git.io/v9999 41
+      - https://git.io/v9999 42
+      - https://git.io/v9999 43
+      - https://git.io/v9999 44
+      - https://git.io/v9999 45
+      - https://git.io/v9999 46
+      - https://git.io/v9999 47
+      - https://git.io/v9999 48
+      - https://git.io/v9999 49
+      - https://git.io/v9999 50
+      - https://git.io/v9999 51
+      - https://git.io/v9999 52
+      - https://git.io/v9999 53
+      - https://git.io/v9999 54
+      - https://git.io/v9999 55
+      - https://git.io/v9999 56
+      - https://git.io/v9999 57
+      - https://git.io/v9999 58
+      - https://git.io/v9999 59
+      - https://git.io/v9999 60
+      - https://git.io/v9999 61
+      - https://git.io/v9999 62
+      - https://git.io/v9999 63
+      - https://git.io/v9999 64
+      - https://git.io/v9999 65
+      - https://git.io/v9999 66
+      - https://git.io/v9999 67
+      - https://git.io/v9999 68
+      - https://git.io/v9999 69
+      - https://git.io/v9999 70
+      - https://git.io/v9999 71
+      - https://git.io/v9999 72
+      - https://git.io/v9999 73
+      - https://git.io/v9999 74
+      - https://git.io/v9999 75
+      - https://git.io/v9999 76
+      - https://git.io/v9999 77
+      - https://git.io/v9999 78
+      - https://git.io/v9999 79
+      - https://git.io/v9999 80
+      - https://git.io/v9999 81
+      - https://git.io/v9999 82
+      - https://git.io/v9999 83
+      - https://git.io/v9999 84
+      - https://git.io/v9999 85
+      - https://git.io/v9999 86
+      - https://git.io/v9999 87
+      - https://git.io/v9999 88
+      - https://git.io/v9999 89
+      - https://git.io/v9999 90
+      - https://git.io/v9999 91
+      - https://git.io/v9999 92
+      - https://git.io/v9999 93
+      - https://git.io/v9999 94
+      - https://git.io/v9999 95
+      - https://git.io/v9999 96
+      - https://git.io/v9999 97
+      - https://git.io/v9999 98
+      - https://git.io/v9999 99
+      - https://git.io/v9999 100
+      - https://git.io/v9999 101
+      - https://git.io/v9999 102
+      - https://git.io/v9999 103
+      - https://git.io/v9999 104
+      - https://git.io/v9999 105
+      - https://git.io/v9999 106
+      - https://git.io/v9999 107
+      - https://git.io/v9999 108
+      - https://git.io/v9999 109
+      - https://git.io/v9999 110
+      - https://git.io/v9999 111
+      - https://git.io/v9999 112
+      - https://git.io/v9999 113
+      - https://git.io/v9999 114
+      - https://git.io/v9999 115
+      - https://git.io/v9999 116
+      - https://git.io/v9999 117
+      - https://git.io/v9999 118
+      - https://git.io/v9999 119
+      - https://git.io/v9999 120
+      - https://git.io/v9999 121
+      - https://git.io/v9999 122
+      - https://git.io/v9999 123
+      - https://git.io/v9999 124
+      - https://git.io/v9999 125
+      - https://git.io/v9999 126
+      - https://git.io/v9999 127
+      - https://git.io/v9999 128
+      - https://git.io/v9999 129
+      - https://git.io/v9999 130
+      - https://git.io/v9999 131
+      - https://git.io/v9999 132
+      - https://git.io/v9999 133
+      - https://git.io/v9999 134
+      - https://git.io/v9999 135
+      - https://git.io/v9999 136
+      - https://git.io/v9999 137
+      - https://git.io/v9999 138
+      - https://git.io/v9999 139
+      - https://git.io/v9999 140
+      - https://git.io/v9999 141
+      - https://git.io/v9999 142
+      - https://git.io/v9999 143
+      - https://git.io/v9999 144
+      - https://git.io/v9999 145
+      - https://git.io/v9999 146
+      - https://git.io/v9999 147
+      - https://git.io/v9999 148
+      - https://git.io/v9999 149
+      - https://git.io/v9999 150
+      - https://git.io/v9999 151
+      - https://git.io/v9999 152
+      - https://git.io/v9999 153
+      - https://git.io/v9999 154
+      - https://git.io/v9999 155
+      - https://git.io/v9999 156
+      - https://git.io/v9999 157
+      - https://git.io/v9999 158
+      - https://git.io/v9999 159
+      - https://git.io/v9999 160
+      - https://git.io/v9999 161
+      - https://git.io/v9999 162
+      - https://git.io/v9999 163
+      - https://git.io/v9999 164
+      - https://git.io/v9999 165
+      - https://git.io/v9999 166
+      - https://git.io/v9999 167
+      - https://git.io/v9999 168
+      - https://git.io/v9999 169
+      - https://git.io/v9999 170
+      - https://git.io/v9999 171
+      - https://git.io/v9999 172
+      - https://git.io/v9999 173
+      - https://git.io/v9999 174
+      - https://git.io/v9999 175
+      - https://git.io/v9999 176
+      - https://git.io/v9999 177
+      - https://git.io/v9999 178
+      - https://git.io/v9999 179
+      - https://git.io/v9999 180
+      - https://git.io/v9999 181
+      - https://git.io/v9999 182
+      - https://git.io/v9999 183
+      - https://git.io/v9999 184
+      - https://git.io/v9999 185
+      - https://git.io/v9999 186
+      - https://git.io/v9999 187
+      - https://git.io/v9999 188
+      - https://git.io/v9999 189
+      - https://git.io/v9999 190
+      - https://git.io/v9999 191
+      - https://git.io/v9999 192
+      - https://git.io/v9999 193
+      - https://git.io/v9999 194
+      - https://git.io/v9999 195
+      - https://git.io/v9999 196
+      - https://git.io/v9999 197
+      - https://git.io/v9999 198
+      - https://git.io/v9999 199
+      - https://git.io/v9999 200
+      - https://git.io/v9999 201
+      - https://git.io/v9999 202
+      - https://git.io/v9999 203
+      - https://git.io/v9999 204
+      - https://git.io/v9999 205
+      - https://git.io/v9999 206
+      - https://git.io/v9999 207
+  - name: Ⓜ️ 微软服务
+    type: select
+    proxies:
+      - 🎯 直连
+      - 🔰 节点选择
+      - https://git.io/v9999
+      - https://git.io/v9999 2
+      - https://git.io/v9999 3
+      - https://git.io/v9999 4
+      - https://git.io/v9999 5
+      - https://git.io/v9999 6
+      - https://git.io/v9999 7
+      - https://git.io/v9999 8
+      - https://git.io/v9999 9
+      - https://git.io/v9999 10
+      - https://git.io/v9999 11
+      - https://git.io/v9999 12
+      - https://git.io/v9999 13
+      - https://git.io/v9999 14
+      - https://git.io/v9999 15
+      - https://git.io/v9999 16
+      - https://git.io/v9999 17
+      - https://git.io/v9999 18
+      - https://git.io/v9999 19
+      - https://git.io/v9999 20
+      - https://git.io/v9999 21
+      - https://git.io/v9999 22
+      - https://git.io/v9999 23
+      - https://git.io/v9999 24
+      - https://git.io/v9999 25
+      - https://git.io/v9999 26
+      - https://git.io/v9999 27
+      - https://git.io/v9999 28
+      - https://git.io/v9999 29
+      - https://git.io/v9999 30
+      - https://git.io/v9999 31
+      - https://git.io/v9999 32
+      - https://git.io/v9999 33
+      - https://git.io/v9999 34
+      - https://git.io/v9999 35
+      - https://git.io/v9999 36
+      - https://git.io/v9999 37
+      - https://git.io/v9999 38
+      - https://git.io/v9999 39
+      - https://git.io/v9999 40
+      - https://git.io/v9999 41
+      - https://git.io/v9999 42
+      - https://git.io/v9999 43
+      - https://git.io/v9999 44
+      - https://git.io/v9999 45
+      - https://git.io/v9999 46
+      - https://git.io/v9999 47
+      - https://git.io/v9999 48
+      - https://git.io/v9999 49
+      - https://git.io/v9999 50
+      - https://git.io/v9999 51
+      - https://git.io/v9999 52
+      - https://git.io/v9999 53
+      - https://git.io/v9999 54
+      - https://git.io/v9999 55
+      - https://git.io/v9999 56
+      - https://git.io/v9999 57
+      - https://git.io/v9999 58
+      - https://git.io/v9999 59
+      - https://git.io/v9999 60
+      - https://git.io/v9999 61
+      - https://git.io/v9999 62
+      - https://git.io/v9999 63
+      - https://git.io/v9999 64
+      - https://git.io/v9999 65
+      - https://git.io/v9999 66
+      - https://git.io/v9999 67
+      - https://git.io/v9999 68
+      - https://git.io/v9999 69
+      - https://git.io/v9999 70
+      - https://git.io/v9999 71
+      - https://git.io/v9999 72
+      - https://git.io/v9999 73
+      - https://git.io/v9999 74
+      - https://git.io/v9999 75
+      - https://git.io/v9999 76
+      - https://git.io/v9999 77
+      - https://git.io/v9999 78
+      - https://git.io/v9999 79
+      - https://git.io/v9999 80
+      - https://git.io/v9999 81
+      - https://git.io/v9999 82
+      - https://git.io/v9999 83
+      - https://git.io/v9999 84
+      - https://git.io/v9999 85
+      - https://git.io/v9999 86
+      - https://git.io/v9999 87
+      - https://git.io/v9999 88
+      - https://git.io/v9999 89
+      - https://git.io/v9999 90
+      - https://git.io/v9999 91
+      - https://git.io/v9999 92
+      - https://git.io/v9999 93
+      - https://git.io/v9999 94
+      - https://git.io/v9999 95
+      - https://git.io/v9999 96
+      - https://git.io/v9999 97
+      - https://git.io/v9999 98
+      - https://git.io/v9999 99
+      - https://git.io/v9999 100
+      - https://git.io/v9999 101
+      - https://git.io/v9999 102
+      - https://git.io/v9999 103
+      - https://git.io/v9999 104
+      - https://git.io/v9999 105
+      - https://git.io/v9999 106
+      - https://git.io/v9999 107
+      - https://git.io/v9999 108
+      - https://git.io/v9999 109
+      - https://git.io/v9999 110
+      - https://git.io/v9999 111
+      - https://git.io/v9999 112
+      - https://git.io/v9999 113
+      - https://git.io/v9999 114
+      - https://git.io/v9999 115
+      - https://git.io/v9999 116
+      - https://git.io/v9999 117
+      - https://git.io/v9999 118
+      - https://git.io/v9999 119
+      - https://git.io/v9999 120
+      - https://git.io/v9999 121
+      - https://git.io/v9999 122
+      - https://git.io/v9999 123
+      - https://git.io/v9999 124
+      - https://git.io/v9999 125
+      - https://git.io/v9999 126
+      - https://git.io/v9999 127
+      - https://git.io/v9999 128
+      - https://git.io/v9999 129
+      - https://git.io/v9999 130
+      - https://git.io/v9999 131
+      - https://git.io/v9999 132
+      - https://git.io/v9999 133
+      - https://git.io/v9999 134
+      - https://git.io/v9999 135
+      - https://git.io/v9999 136
+      - https://git.io/v9999 137
+      - https://git.io/v9999 138
+      - https://git.io/v9999 139
+      - https://git.io/v9999 140
+      - https://git.io/v9999 141
+      - https://git.io/v9999 142
+      - https://git.io/v9999 143
+      - https://git.io/v9999 144
+      - https://git.io/v9999 145
+      - https://git.io/v9999 146
+      - https://git.io/v9999 147
+      - https://git.io/v9999 148
+      - https://git.io/v9999 149
+      - https://git.io/v9999 150
+      - https://git.io/v9999 151
+      - https://git.io/v9999 152
+      - https://git.io/v9999 153
+      - https://git.io/v9999 154
+      - https://git.io/v9999 155
+      - https://git.io/v9999 156
+      - https://git.io/v9999 157
+      - https://git.io/v9999 158
+      - https://git.io/v9999 159
+      - https://git.io/v9999 160
+      - https://git.io/v9999 161
+      - https://git.io/v9999 162
+      - https://git.io/v9999 163
+      - https://git.io/v9999 164
+      - https://git.io/v9999 165
+      - https://git.io/v9999 166
+      - https://git.io/v9999 167
+      - https://git.io/v9999 168
+      - https://git.io/v9999 169
+      - https://git.io/v9999 170
+      - https://git.io/v9999 171
+      - https://git.io/v9999 172
+      - https://git.io/v9999 173
+      - https://git.io/v9999 174
+      - https://git.io/v9999 175
+      - https://git.io/v9999 176
+      - https://git.io/v9999 177
+      - https://git.io/v9999 178
+      - https://git.io/v9999 179
+      - https://git.io/v9999 180
+      - https://git.io/v9999 181
+      - https://git.io/v9999 182
+      - https://git.io/v9999 183
+      - https://git.io/v9999 184
+      - https://git.io/v9999 185
+      - https://git.io/v9999 186
+      - https://git.io/v9999 187
+      - https://git.io/v9999 188
+      - https://git.io/v9999 189
+      - https://git.io/v9999 190
+      - https://git.io/v9999 191
+      - https://git.io/v9999 192
+      - https://git.io/v9999 193
+      - https://git.io/v9999 194
+      - https://git.io/v9999 195
+      - https://git.io/v9999 196
+      - https://git.io/v9999 197
+      - https://git.io/v9999 198
+      - https://git.io/v9999 199
+      - https://git.io/v9999 200
+      - https://git.io/v9999 201
+      - https://git.io/v9999 202
+      - https://git.io/v9999 203
+      - https://git.io/v9999 204
+      - https://git.io/v9999 205
+      - https://git.io/v9999 206
+      - https://git.io/v9999 207
+  - name: 🍎 苹果服务
+    type: select
+    proxies:
+      - 🔰 节点选择
+      - 🎯 直连
+      - ♻️ 自动选择
+      - https://git.io/v9999
+      - https://git.io/v9999 2
+      - https://git.io/v9999 3
+      - https://git.io/v9999 4
+      - https://git.io/v9999 5
+      - https://git.io/v9999 6
+      - https://git.io/v9999 7
+      - https://git.io/v9999 8
+      - https://git.io/v9999 9
+      - https://git.io/v9999 10
+      - https://git.io/v9999 11
+      - https://git.io/v9999 12
+      - https://git.io/v9999 13
+      - https://git.io/v9999 14
+      - https://git.io/v9999 15
+      - https://git.io/v9999 16
+      - https://git.io/v9999 17
+      - https://git.io/v9999 18
+      - https://git.io/v9999 19
+      - https://git.io/v9999 20
+      - https://git.io/v9999 21
+      - https://git.io/v9999 22
+      - https://git.io/v9999 23
+      - https://git.io/v9999 24
+      - https://git.io/v9999 25
+      - https://git.io/v9999 26
+      - https://git.io/v9999 27
+      - https://git.io/v9999 28
+      - https://git.io/v9999 29
+      - https://git.io/v9999 30
+      - https://git.io/v9999 31
+      - https://git.io/v9999 32
+      - https://git.io/v9999 33
+      - https://git.io/v9999 34
+      - https://git.io/v9999 35
+      - https://git.io/v9999 36
+      - https://git.io/v9999 37
+      - https://git.io/v9999 38
+      - https://git.io/v9999 39
+      - https://git.io/v9999 40
+      - https://git.io/v9999 41
+      - https://git.io/v9999 42
+      - https://git.io/v9999 43
+      - https://git.io/v9999 44
+      - https://git.io/v9999 45
+      - https://git.io/v9999 46
+      - https://git.io/v9999 47
+      - https://git.io/v9999 48
+      - https://git.io/v9999 49
+      - https://git.io/v9999 50
+      - https://git.io/v9999 51
+      - https://git.io/v9999 52
+      - https://git.io/v9999 53
+      - https://git.io/v9999 54
+      - https://git.io/v9999 55
+      - https://git.io/v9999 56
+      - https://git.io/v9999 57
+      - https://git.io/v9999 58
+      - https://git.io/v9999 59
+      - https://git.io/v9999 60
+      - https://git.io/v9999 61
+      - https://git.io/v9999 62
+      - https://git.io/v9999 63
+      - https://git.io/v9999 64
+      - https://git.io/v9999 65
+      - https://git.io/v9999 66
+      - https://git.io/v9999 67
+      - https://git.io/v9999 68
+      - https://git.io/v9999 69
+      - https://git.io/v9999 70
+      - https://git.io/v9999 71
+      - https://git.io/v9999 72
+      - https://git.io/v9999 73
+      - https://git.io/v9999 74
+      - https://git.io/v9999 75
+      - https://git.io/v9999 76
+      - https://git.io/v9999 77
+      - https://git.io/v9999 78
+      - https://git.io/v9999 79
+      - https://git.io/v9999 80
+      - https://git.io/v9999 81
+      - https://git.io/v9999 82
+      - https://git.io/v9999 83
+      - https://git.io/v9999 84
+      - https://git.io/v9999 85
+      - https://git.io/v9999 86
+      - https://git.io/v9999 87
+      - https://git.io/v9999 88
+      - https://git.io/v9999 89
+      - https://git.io/v9999 90
+      - https://git.io/v9999 91
+      - https://git.io/v9999 92
+      - https://git.io/v9999 93
+      - https://git.io/v9999 94
+      - https://git.io/v9999 95
+      - https://git.io/v9999 96
+      - https://git.io/v9999 97
+      - https://git.io/v9999 98
+      - https://git.io/v9999 99
+      - https://git.io/v9999 100
+      - https://git.io/v9999 101
+      - https://git.io/v9999 102
+      - https://git.io/v9999 103
+      - https://git.io/v9999 104
+      - https://git.io/v9999 105
+      - https://git.io/v9999 106
+      - https://git.io/v9999 107
+      - https://git.io/v9999 108
+      - https://git.io/v9999 109
+      - https://git.io/v9999 110
+      - https://git.io/v9999 111
+      - https://git.io/v9999 112
+      - https://git.io/v9999 113
+      - https://git.io/v9999 114
+      - https://git.io/v9999 115
+      - https://git.io/v9999 116
+      - https://git.io/v9999 117
+      - https://git.io/v9999 118
+      - https://git.io/v9999 119
+      - https://git.io/v9999 120
+      - https://git.io/v9999 121
+      - https://git.io/v9999 122
+      - https://git.io/v9999 123
+      - https://git.io/v9999 124
+      - https://git.io/v9999 125
+      - https://git.io/v9999 126
+      - https://git.io/v9999 127
+      - https://git.io/v9999 128
+      - https://git.io/v9999 129
+      - https://git.io/v9999 130
+      - https://git.io/v9999 131
+      - https://git.io/v9999 132
+      - https://git.io/v9999 133
+      - https://git.io/v9999 134
+      - https://git.io/v9999 135
+      - https://git.io/v9999 136
+      - https://git.io/v9999 137
+      - https://git.io/v9999 138
+      - https://git.io/v9999 139
+      - https://git.io/v9999 140
+      - https://git.io/v9999 141
+      - https://git.io/v9999 142
+      - https://git.io/v9999 143
+      - https://git.io/v9999 144
+      - https://git.io/v9999 145
+      - https://git.io/v9999 146
+      - https://git.io/v9999 147
+      - https://git.io/v9999 148
+      - https://git.io/v9999 149
+      - https://git.io/v9999 150
+      - https://git.io/v9999 151
+      - https://git.io/v9999 152
+      - https://git.io/v9999 153
+      - https://git.io/v9999 154
+      - https://git.io/v9999 155
+      - https://git.io/v9999 156
+      - https://git.io/v9999 157
+      - https://git.io/v9999 158
+      - https://git.io/v9999 159
+      - https://git.io/v9999 160
+      - https://git.io/v9999 161
+      - https://git.io/v9999 162
+      - https://git.io/v9999 163
+      - https://git.io/v9999 164
+      - https://git.io/v9999 165
+      - https://git.io/v9999 166
+      - https://git.io/v9999 167
+      - https://git.io/v9999 168
+      - https://git.io/v9999 169
+      - https://git.io/v9999 170
+      - https://git.io/v9999 171
+      - https://git.io/v9999 172
+      - https://git.io/v9999 173
+      - https://git.io/v9999 174
+      - https://git.io/v9999 175
+      - https://git.io/v9999 176
+      - https://git.io/v9999 177
+      - https://git.io/v9999 178
+      - https://git.io/v9999 179
+      - https://git.io/v9999 180
+      - https://git.io/v9999 181
+      - https://git.io/v9999 182
+      - https://git.io/v9999 183
+      - https://git.io/v9999 184
+      - https://git.io/v9999 185
+      - https://git.io/v9999 186
+      - https://git.io/v9999 187
+      - https://git.io/v9999 188
+      - https://git.io/v9999 189
+      - https://git.io/v9999 190
+      - https://git.io/v9999 191
+      - https://git.io/v9999 192
+      - https://git.io/v9999 193
+      - https://git.io/v9999 194
+      - https://git.io/v9999 195
+      - https://git.io/v9999 196
+      - https://git.io/v9999 197
+      - https://git.io/v9999 198
+      - https://git.io/v9999 199
+      - https://git.io/v9999 200
+      - https://git.io/v9999 201
+      - https://git.io/v9999 202
+      - https://git.io/v9999 203
+      - https://git.io/v9999 204
+      - https://git.io/v9999 205
+      - https://git.io/v9999 206
+      - https://git.io/v9999 207
+  - name: 🎯 直连
+    type: select
+    proxies:
+      - DIRECT
+  - name: 🛑 拦截
+    type: select
+    proxies:
+      - REJECT
+      - DIRECT
+rules:
+ - DOMAIN-SUFFIX,local,🎯 直连
+ - IP-CIDR,192.168.0.0/16,🎯 直连,no-resolve
+ - IP-CIDR,10.0.0.0/8,🎯 直连,no-resolve
+ - IP-CIDR,172.16.0.0/12,🎯 直连,no-resolve
+ - IP-CIDR,127.0.0.0/8,🎯 直连,no-resolve
+ - IP-CIDR,100.64.0.0/10,🎯 直连,no-resolve
+ - IP-CIDR6,::1/128,🎯 直连,no-resolve
+ - IP-CIDR6,fc00::/7,🎯 直连,no-resolve
+ - IP-CIDR6,fe80::/10,🎯 直连,no-resolve
+ - IP-CIDR6,fd00::/8,🎯 直连,no-resolve
+ - DOMAIN-KEYWORD,1drv,Ⓜ️ 微软服务
+ - DOMAIN-KEYWORD,microsoft,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,aadrm.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,acompli.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,acompli.net,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,aka.ms,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,akadns.net,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,aspnetcdn.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,assets-yammer.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,azure.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,azure.net,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,azureedge.net,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,azurerms.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,bing.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,cloudapp.net,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,cloudappsecurity.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,edgesuite.net,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,gfx.ms,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,hotmail.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,live.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,live.net,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,lync.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,msappproxy.net,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,msauth.net,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,msauthimages.net,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,msecnd.net,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,msedge.net,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,msft.net,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,msftauth.net,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,msftauthimages.net,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,msftidentity.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,msidentity.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,msn.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,msocdn.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,msocsp.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,mstea.ms,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,o365weve.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,oaspapps.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,office.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,office.net,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,office365.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,officeppe.net,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,omniroot.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,onedrive.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,onenote.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,onenote.net,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,onestore.ms,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,outlook.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,outlookmobile.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,phonefactor.net,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,public-trust.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,sfbassets.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,sfx.ms,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,sharepoint.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,sharepointonline.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,skype.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,skypeassets.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,skypeforbusiness.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,staffhub.ms,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,svc.ms,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,sway-cdn.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,sway-extensions.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,sway.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,trafficmanager.net,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,uservoice.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,virtualearth.net,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,visualstudio.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,windows-ppe.net,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,windows.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,windows.net,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,windowsazure.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,windowsupdate.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,wunderlist.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,yammer.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,yammerusercontent.com,Ⓜ️ 微软服务
+ - DOMAIN,app.adjust.com,🎯 直连
+ - DOMAIN,bdtj.tagtic.cn,🎯 直连
+ - DOMAIN,log.mmstat.com,🎯 直连
+ - DOMAIN,sycm.mmstat.com,🎯 直连
+ - DOMAIN,livew.l.qq.com,🎯 直连
+ - DOMAIN,vd.l.qq.com,🎯 直连
+ - DOMAIN,analytics.strava.com,🎯 直连
+ - DOMAIN,msg.umeng.com,🎯 直连
+ - DOMAIN,msg.umengcloud.com,🎯 直连
+ - IP-CIDR,188.89.204.198/32,🛑 拦截,no-resolve
+ - DOMAIN-SUFFIX,17gouwuba.com,🛑 拦截
+ - DOMAIN-SUFFIX,186078.com,🛑 拦截
+ - DOMAIN-SUFFIX,189zj.cn,🛑 拦截
+ - DOMAIN-SUFFIX,285680.com,🛑 拦截
+ - DOMAIN-SUFFIX,3721zh.com,🛑 拦截
+ - DOMAIN-SUFFIX,4336wang.cn,🛑 拦截
+ - DOMAIN-SUFFIX,51chumoping.com,🛑 拦截
+ - DOMAIN-SUFFIX,51mld.cn,🛑 拦截
+ - DOMAIN-SUFFIX,51mypc.cn,🛑 拦截
+ - DOMAIN-SUFFIX,58mingri.cn,🛑 拦截
+ - DOMAIN-SUFFIX,58mingtian.cn,🛑 拦截
+ - DOMAIN-SUFFIX,5vl58stm.com,🛑 拦截
+ - DOMAIN-SUFFIX,6d63d3.com,🛑 拦截
+ - DOMAIN-SUFFIX,7gg.cc,🛑 拦截
+ - DOMAIN-SUFFIX,91veg.com,🛑 拦截
+ - DOMAIN-SUFFIX,9s6q.cn,🛑 拦截
+ - DOMAIN-SUFFIX,adsame.com,🛑 拦截
+ - DOMAIN-SUFFIX,akuai.top,🛑 拦截
+ - DOMAIN-SUFFIX,atplay.cn,🛑 拦截
+ - DOMAIN-SUFFIX,baiwanchuangyi.com,🛑 拦截
+ - DOMAIN-SUFFIX,beerto.cn,🛑 拦截
+ - DOMAIN-SUFFIX,beilamusi.com,🛑 拦截
+ - DOMAIN-SUFFIX,benshiw.net,🛑 拦截
+ - DOMAIN-SUFFIX,bianxianmao.com,🛑 拦截
+ - DOMAIN-SUFFIX,bkyhq.cn,🛑 拦截
+ - DOMAIN-SUFFIX,bryonypie.com,🛑 拦截
+ - DOMAIN-SUFFIX,cishantao.com,🛑 拦截
+ - DOMAIN-SUFFIX,cszlks.com,🛑 拦截
+ - DOMAIN-SUFFIX,cudaojia.com,🛑 拦截
+ - DOMAIN-SUFFIX,dafapromo.com,🛑 拦截
+ - DOMAIN-SUFFIX,daitdai.com,🛑 拦截
+ - DOMAIN-SUFFIX,dsaeerf.com,🛑 拦截
+ - DOMAIN-SUFFIX,dugesheying.com,🛑 拦截
+ - DOMAIN-SUFFIX,dv8c1t.cn,🛑 拦截
+ - DOMAIN-SUFFIX,echatu.com,🛑 拦截
+ - DOMAIN-SUFFIX,erdoscs.com,🛑 拦截
+ - DOMAIN-SUFFIX,fan-yong.com,🛑 拦截
+ - DOMAIN-SUFFIX,feih.com.cn,🛑 拦截
+ - DOMAIN-SUFFIX,fjlqqc.com,🛑 拦截
+ - DOMAIN-SUFFIX,fkku194.com,🛑 拦截
+ - DOMAIN-SUFFIX,freedrive.cn,🛑 拦截
+ - DOMAIN-SUFFIX,gclick.cn,🛑 拦截
+ - DOMAIN-SUFFIX,goufanli100.com,🛑 拦截
+ - DOMAIN-SUFFIX,goupaoerdai.com,🛑 拦截
+ - DOMAIN-SUFFIX,gouwubang.com,🛑 拦截
+ - DOMAIN-SUFFIX,gscxs.cn,🛑 拦截
+ - DOMAIN-SUFFIX,gzxnlk.com,🛑 拦截
+ - DOMAIN-SUFFIX,haoshengtoys.com,🛑 拦截
+ - DOMAIN-SUFFIX,hbssjd.cn,🛑 拦截
+ - DOMAIN-SUFFIX,hyunke.com,🛑 拦截
+ - DOMAIN-SUFFIX,ichaosheng.com,🛑 拦截
+ - DOMAIN-SUFFIX,ishop789.com,🛑 拦截
+ - DOMAIN-SUFFIX,jdkic.com,🛑 拦截
+ - DOMAIN-SUFFIX,jiubuhua.com,🛑 拦截
+ - DOMAIN-SUFFIX,jsncke.com,🛑 拦截
+ - DOMAIN-SUFFIX,junkucm.com,🛑 拦截
+ - DOMAIN-SUFFIX,jwg365.cn,🛑 拦截
+ - DOMAIN-SUFFIX,kawo77.com,🛑 拦截
+ - DOMAIN-SUFFIX,kualianyingxiao.cn,🛑 拦截
+ - DOMAIN-SUFFIX,kumihua.com,🛑 拦截
+ - DOMAIN-SUFFIX,ltheanine.cn,🛑 拦截
+ - DOMAIN-SUFFIX,lvehaisen.com,🛑 拦截
+ - DOMAIN-SUFFIX,maipinshangmao.com,🛑 拦截
+ - DOMAIN-SUFFIX,minisplat.cn,🛑 拦截
+ - DOMAIN-SUFFIX,mkitgfs.com,🛑 拦截
+ - DOMAIN-SUFFIX,mlnbike.com,🛑 拦截
+ - DOMAIN-SUFFIX,mobjump.com,🛑 拦截
+ - DOMAIN-SUFFIX,nbkbgd.cn,🛑 拦截
+ - DOMAIN-SUFFIX,newapi.com,🛑 拦截
+ - DOMAIN-SUFFIX,pinzhitmall.com,🛑 拦截
+ - DOMAIN-SUFFIX,poppyta.com,🛑 拦截
+ - DOMAIN-SUFFIX,qianchuanghr.com,🛑 拦截
+ - DOMAIN-SUFFIX,qichexin.com,🛑 拦截
+ - DOMAIN-SUFFIX,qinchugudao.com,🛑 拦截
+ - DOMAIN-SUFFIX,quanliyouxi.cn,🛑 拦截
+ - DOMAIN-SUFFIX,qutaobi.com,🛑 拦截
+ - DOMAIN-SUFFIX,ry51w.cn,🛑 拦截
+ - DOMAIN-SUFFIX,sg536.cn,🛑 拦截
+ - DOMAIN-SUFFIX,sifubo.cn,🛑 拦截
+ - DOMAIN-SUFFIX,sifuce.cn,🛑 拦截
+ - DOMAIN-SUFFIX,sifuda.cn,🛑 拦截
+ - DOMAIN-SUFFIX,sifufu.cn,🛑 拦截
+ - DOMAIN-SUFFIX,sifuge.cn,🛑 拦截
+ - DOMAIN-SUFFIX,sifugu.cn,🛑 拦截
+ - DOMAIN-SUFFIX,sifuhe.cn,🛑 拦截
+ - DOMAIN-SUFFIX,sifuhu.cn,🛑 拦截
+ - DOMAIN-SUFFIX,sifuji.cn,🛑 拦截
+ - DOMAIN-SUFFIX,sifuka.cn,🛑 拦截
+ - DOMAIN-SUFFIX,smgru.net,🛑 拦截
+ - DOMAIN-SUFFIX,taoggou.com,🛑 拦截
+ - DOMAIN-SUFFIX,tcxshop.com,🛑 拦截
+ - DOMAIN-SUFFIX,tjqonline.cn,🛑 拦截
+ - DOMAIN-SUFFIX,topitme.com,🛑 拦截
+ - DOMAIN-SUFFIX,tt3sm4.cn,🛑 拦截
+ - DOMAIN-SUFFIX,tuia.cn,🛑 拦截
+ - DOMAIN-SUFFIX,tuipenguin.com,🛑 拦截
+ - DOMAIN-SUFFIX,tuitiger.com,🛑 拦截
+ - DOMAIN-SUFFIX,urlaw.cn,🛑 拦截
+ - DOMAIN-SUFFIX,urlet.cn,🛑 拦截
+ - DOMAIN-SUFFIX,websd8.com,🛑 拦截
+ - DOMAIN-SUFFIX,wsgblw.com,🛑 拦截
+ - DOMAIN-SUFFIX,wx16999.com,🛑 拦截
+ - DOMAIN-SUFFIX,xchmai.com,🛑 拦截
+ - DOMAIN-SUFFIX,xiaohuau.xyz,🛑 拦截
+ - DOMAIN-SUFFIX,ygyzx.cn,🛑 拦截
+ - DOMAIN-SUFFIX,yinmong.com,🛑 拦截
+ - DOMAIN-SUFFIX,yitaopt.com,🛑 拦截
+ - DOMAIN-SUFFIX,yjqiqi.com,🛑 拦截
+ - DOMAIN-SUFFIX,yukhj.com,🛑 拦截
+ - DOMAIN-SUFFIX,zhaozecheng.cn,🛑 拦截
+ - DOMAIN-SUFFIX,zhenxinet.com,🛑 拦截
+ - DOMAIN-SUFFIX,zlne800.com,🛑 拦截
+ - DOMAIN-SUFFIX,zmlled.cn,🛑 拦截
+ - DOMAIN-SUFFIX,zunmi.cn,🛑 拦截
+ - DOMAIN-SUFFIX,zzd6.com,🛑 拦截
+ - IP-CIDR,39.107.15.115/32,🛑 拦截,no-resolve
+ - IP-CIDR,47.89.59.182/32,🛑 拦截,no-resolve
+ - IP-CIDR,103.49.209.27/32,🛑 拦截,no-resolve
+ - IP-CIDR,123.56.152.96/32,🛑 拦截,no-resolve
+ - IP-CIDR,61.160.200.223/32,🛑 拦截,no-resolve
+ - IP-CIDR,61.160.200.242/32,🛑 拦截,no-resolve
+ - IP-CIDR,61.160.200.252/32,🛑 拦截,no-resolve
+ - IP-CIDR,61.174.50.214/32,🛑 拦截,no-resolve
+ - IP-CIDR,111.175.220.163/32,🛑 拦截,no-resolve
+ - IP-CIDR,111.175.220.164/32,🛑 拦截,no-resolve
+ - IP-CIDR,122.229.8.47/32,🛑 拦截,no-resolve
+ - IP-CIDR,122.229.29.89/32,🛑 拦截,no-resolve
+ - IP-CIDR,124.232.160.178/32,🛑 拦截,no-resolve
+ - IP-CIDR,175.6.223.15/32,🛑 拦截,no-resolve
+ - IP-CIDR,183.59.53.237/32,🛑 拦截,no-resolve
+ - IP-CIDR,218.93.127.37/32,🛑 拦截,no-resolve
+ - IP-CIDR,221.228.17.152/32,🛑 拦截,no-resolve
+ - IP-CIDR,221.231.6.79/32,🛑 拦截,no-resolve
+ - IP-CIDR,222.186.61.91/32,🛑 拦截,no-resolve
+ - IP-CIDR,222.186.61.95/32,🛑 拦截,no-resolve
+ - IP-CIDR,222.186.61.96/32,🛑 拦截,no-resolve
+ - IP-CIDR,222.186.61.97/32,🛑 拦截,no-resolve
+ - IP-CIDR,106.75.231.48/32,🛑 拦截,no-resolve
+ - IP-CIDR,119.4.249.166/32,🛑 拦截,no-resolve
+ - IP-CIDR,220.196.52.141/32,🛑 拦截,no-resolve
+ - IP-CIDR,221.6.4.148/32,🛑 拦截,no-resolve
+ - IP-CIDR,114.247.28.96/32,🛑 拦截,no-resolve
+ - IP-CIDR,120.240.95.37/32,🛑 拦截,no-resolve
+ - IP-CIDR,221.179.131.72/32,🛑 拦截,no-resolve
+ - IP-CIDR,221.179.140.145/32,🛑 拦截,no-resolve
+ - IP-CIDR,115.182.16.79/32,🛑 拦截,no-resolve
+ - IP-CIDR,118.144.88.126/32,🛑 拦截,no-resolve
+ - IP-CIDR,118.144.88.215/32,🛑 拦截,no-resolve
+ - IP-CIDR,118.144.88.216/32,🛑 拦截,no-resolve
+ - IP-CIDR,120.76.189.132/32,🛑 拦截,no-resolve
+ - IP-CIDR,124.14.21.147/32,🛑 拦截,no-resolve
+ - IP-CIDR,124.14.21.151/32,🛑 拦截,no-resolve
+ - IP-CIDR,180.166.52.24/32,🛑 拦截,no-resolve
+ - IP-CIDR,211.161.101.106/32,🛑 拦截,no-resolve
+ - IP-CIDR,220.115.251.25/32,🛑 拦截,no-resolve
+ - IP-CIDR,222.73.156.235/32,🛑 拦截,no-resolve
+ - IP-CIDR,114.119.160.0/21,🛑 拦截,no-resolve
+ - DOMAIN-SUFFIX,kuaizip.com,🛑 拦截
+ - DOMAIN-SUFFIX,mackeeper.com,🛑 拦截
+ - DOMAIN-SUFFIX,zryydi.com,🛑 拦截
+ - DOMAIN-SUFFIX,flash.cn,🛑 拦截
+ - DOMAIN,geo2.adobe.com,🛑 拦截
+ - DOMAIN-SUFFIX,4009997658.com,🛑 拦截
+ - DOMAIN-SUFFIX,abbyychina.com,🛑 拦截
+ - DOMAIN-SUFFIX,bartender.cc,🛑 拦截
+ - DOMAIN-SUFFIX,betterzip.net,🛑 拦截
+ - DOMAIN-SUFFIX,betterzipcn.com,🛑 拦截
+ - DOMAIN-SUFFIX,beyondcompare.cc,🛑 拦截
+ - DOMAIN-SUFFIX,bingdianhuanyuan.cn,🛑 拦截
+ - DOMAIN-SUFFIX,chemdraw.com.cn,🛑 拦截
+ - DOMAIN-SUFFIX,cjmakeding.com,🛑 拦截
+ - DOMAIN-SUFFIX,cjmkt.com,🛑 拦截
+ - DOMAIN-SUFFIX,codesoftchina.com,🛑 拦截
+ - DOMAIN-SUFFIX,coreldrawchina.com,🛑 拦截
+ - DOMAIN-SUFFIX,crossoverchina.com,🛑 拦截
+ - DOMAIN-SUFFIX,dongmansoft.com,🛑 拦截
+ - DOMAIN-SUFFIX,earmasterchina.cn,🛑 拦截
+ - DOMAIN-SUFFIX,easyrecoverychina.com,🛑 拦截
+ - DOMAIN-SUFFIX,ediuschina.com,🛑 拦截
+ - DOMAIN-SUFFIX,flstudiochina.com,🛑 拦截
+ - DOMAIN-SUFFIX,formysql.com,🛑 拦截
+ - DOMAIN-SUFFIX,guitarpro.cc,🛑 拦截
+ - DOMAIN-SUFFIX,huishenghuiying.com.cn,🛑 拦截
+ - DOMAIN-SUFFIX,hypersnap.net,🛑 拦截
+ - DOMAIN-SUFFIX,iconworkshop.cn,🛑 拦截
+ - DOMAIN-SUFFIX,imindmap.cc,🛑 拦截
+ - DOMAIN-SUFFIX,jihehuaban.com.cn,🛑 拦截
+ - DOMAIN-SUFFIX,keyshot.cc,🛑 拦截
+ - DOMAIN-SUFFIX,kingdeecn.cn,🛑 拦截
+ - DOMAIN-SUFFIX,logoshejishi.com,🛑 拦截
+ - DOMAIN-SUFFIX,luping.net.cn,🛑 拦截
+ - DOMAIN-SUFFIX,mairuan.cn,🛑 拦截
+ - DOMAIN-SUFFIX,mairuan.com,🛑 拦截
+ - DOMAIN-SUFFIX,mairuan.com.cn,🛑 拦截
+ - DOMAIN-SUFFIX,mairuan.net,🛑 拦截
+ - DOMAIN-SUFFIX,mairuanwang.com,🛑 拦截
+ - DOMAIN-SUFFIX,makeding.com,🛑 拦截
+ - DOMAIN-SUFFIX,mathtype.cn,🛑 拦截
+ - DOMAIN-SUFFIX,mindmanager.cc,🛑 拦截
+ - DOMAIN-SUFFIX,mindmanager.cn,🛑 拦截
+ - DOMAIN-SUFFIX,mindmapper.cc,🛑 拦截
+ - DOMAIN-SUFFIX,mycleanmymac.com,🛑 拦截
+ - DOMAIN-SUFFIX,nicelabel.cc,🛑 拦截
+ - DOMAIN-SUFFIX,ntfsformac.cc,🛑 拦截
+ - DOMAIN-SUFFIX,ntfsformac.cn,🛑 拦截
+ - DOMAIN-SUFFIX,overturechina.com,🛑 拦截
+ - DOMAIN-SUFFIX,passwordrecovery.cn,🛑 拦截
+ - DOMAIN-SUFFIX,pdfexpert.cc,🛑 拦截
+ - DOMAIN-SUFFIX,photozoomchina.com,🛑 拦截
+ - DOMAIN-SUFFIX,shankejingling.com,🛑 拦截
+ - DOMAIN-SUFFIX,ultraiso.net,🛑 拦截
+ - DOMAIN-SUFFIX,vegaschina.cn,🛑 拦截
+ - DOMAIN-SUFFIX,xitongqingli.com,🛑 拦截
+ - DOMAIN-SUFFIX,xmindchina.net,🛑 拦截
+ - DOMAIN-SUFFIX,xshellcn.com,🛑 拦截
+ - DOMAIN-SUFFIX,yihuifu.cn,🛑 拦截
+ - DOMAIN-SUFFIX,yuanchengxiezuo.com,🛑 拦截
+ - DOMAIN-SUFFIX,zbrushcn.com,🛑 拦截
+ - DOMAIN-SUFFIX,zhzzx.com,🛑 拦截
+ - DOMAIN-SUFFIX,aaplimg.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,apple.co,🍎 苹果服务
+ - DOMAIN-SUFFIX,apple.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,apple.com.cn,🍎 苹果服务
+ - DOMAIN-SUFFIX,apple-cloudkit.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,appstore.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,cdn-apple.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.com.cn,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud-content.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,me.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,mzstatic.com,🍎 苹果服务
+ - DOMAIN-KEYWORD,apple.com.akadns.net,🍎 苹果服务
+ - DOMAIN-KEYWORD,icloud.com.akadns.net,🍎 苹果服务
+ - IP-CIDR,17.0.0.0/8,🍎 苹果服务,no-resolve
+ - IP-CIDR,63.92.224.0/19,🍎 苹果服务,no-resolve
+ - IP-CIDR,65.199.22.0/23,🍎 苹果服务,no-resolve
+ - IP-CIDR,139.178.128.0/18,🍎 苹果服务,no-resolve
+ - IP-CIDR,144.178.0.0/19,🍎 苹果服务,no-resolve
+ - IP-CIDR,192.35.50.0/24,🍎 苹果服务,no-resolve
+ - IP-CIDR,198.183.17.0/24,🍎 苹果服务,no-resolve
+ - IP-CIDR,205.180.175.0/24,🍎 苹果服务,no-resolve
+ - DOMAIN-SUFFIX,qhres.com,🎯 直连
+ - DOMAIN-SUFFIX,qhimg.com,🎯 直连
+ - DOMAIN-SUFFIX,alibaba.com,🎯 直连
+ - DOMAIN-SUFFIX,alibabausercontent.com,🎯 直连
+ - DOMAIN-SUFFIX,alicdn.com,🎯 直连
+ - DOMAIN-SUFFIX,alikunlun.com,🎯 直连
+ - DOMAIN-SUFFIX,alipay.com,🎯 直连
+ - DOMAIN-SUFFIX,amap.com,🎯 直连
+ - DOMAIN-SUFFIX,autonavi.com,🎯 直连
+ - DOMAIN-SUFFIX,dingtalk.com,🎯 直连
+ - DOMAIN-SUFFIX,mxhichina.com,🎯 直连
+ - DOMAIN-SUFFIX,soku.com,🎯 直连
+ - DOMAIN-SUFFIX,taobao.com,🎯 直连
+ - DOMAIN-SUFFIX,tmall.com,🎯 直连
+ - DOMAIN-SUFFIX,tmall.hk,🎯 直连
+ - DOMAIN-SUFFIX,ykimg.com,🎯 直连
+ - DOMAIN-SUFFIX,youku.com,🎯 直连
+ - DOMAIN-SUFFIX,xiami.com,🎯 直连
+ - DOMAIN-SUFFIX,xiami.net,🎯 直连
+ - DOMAIN-SUFFIX,baidu.com,🎯 直连
+ - DOMAIN-SUFFIX,baidubcr.com,🎯 直连
+ - DOMAIN-SUFFIX,baidupan.com,🎯 直连
+ - DOMAIN-SUFFIX,baidupcs.com,🎯 直连
+ - DOMAIN-SUFFIX,bdstatic.com,🎯 直连
+ - DOMAIN-SUFFIX,yunjiasu-cdn.net,🎯 直连
+ - DOMAIN-SUFFIX,acgvideo.com,🎯 直连
+ - DOMAIN-SUFFIX,biliapi.com,🎯 直连
+ - DOMAIN-SUFFIX,biliapi.net,🎯 直连
+ - DOMAIN-SUFFIX,bilibili.com,🎯 直连
+ - DOMAIN-SUFFIX,bilibili.tv,🎯 直连
+ - DOMAIN-SUFFIX,hdslb.com,🎯 直连
+ - DOMAIN-SUFFIX,feiliao.com,🎯 直连
+ - DOMAIN-SUFFIX,pstatp.com,🎯 直连
+ - DOMAIN-SUFFIX,snssdk.com,🎯 直连
+ - DOMAIN-SUFFIX,iesdouyin.com,🎯 直连
+ - DOMAIN-SUFFIX,toutiao.com,🎯 直连
+ - DOMAIN-SUFFIX,cctv.com,🎯 直连
+ - DOMAIN-SUFFIX,cctvpic.com,🎯 直连
+ - DOMAIN-SUFFIX,livechina.com,🎯 直连
+ - DOMAIN-SUFFIX,didialift.com,🎯 直连
+ - DOMAIN-SUFFIX,didiglobal.com,🎯 直连
+ - DOMAIN-SUFFIX,udache.com,🎯 直连
+ - DOMAIN-SUFFIX,21cn.com,🎯 直连
+ - DOMAIN-SUFFIX,hitv.com,🎯 直连
+ - DOMAIN-SUFFIX,mgtv.com,🎯 直连
+ - DOMAIN-SUFFIX,iqiyi.com,🎯 直连
+ - DOMAIN-SUFFIX,iqiyipic.com,🎯 直连
+ - DOMAIN-SUFFIX,71.am,🎯 直连
+ - DOMAIN-SUFFIX,jd.com,🎯 直连
+ - DOMAIN-SUFFIX,jd.hk,🎯 直连
+ - DOMAIN-SUFFIX,jdpay.com,🎯 直连
+ - DOMAIN-SUFFIX,360buyimg.com,🎯 直连
+ - DOMAIN-SUFFIX,iciba.com,🎯 直连
+ - DOMAIN-SUFFIX,ksosoft.com,🎯 直连
+ - DOMAIN-SUFFIX,meitu.com,🎯 直连
+ - DOMAIN-SUFFIX,meitudata.com,🎯 直连
+ - DOMAIN-SUFFIX,meitustat.com,🎯 直连
+ - DOMAIN-SUFFIX,meipai.com,🎯 直连
+ - DOMAIN-SUFFIX,duokan.com,🎯 直连
+ - DOMAIN-SUFFIX,mi.com,🎯 直连
+ - DOMAIN-SUFFIX,mi-img.com,🎯 直连
+ - DOMAIN-SUFFIX,miui.com,🎯 直连
+ - DOMAIN-SUFFIX,miwifi.com,🎯 直连
+ - DOMAIN-SUFFIX,xiaomi.com,🎯 直连
+ - DOMAIN-SUFFIX,xiaomi.net,🎯 直连
+ - DOMAIN-SUFFIX,163.com,🎯 直连
+ - DOMAIN-SUFFIX,126.com,🎯 直连
+ - DOMAIN-SUFFIX,126.net,🎯 直连
+ - DOMAIN-SUFFIX,127.net,🎯 直连
+ - DOMAIN-SUFFIX,163yun.com,🎯 直连
+ - DOMAIN-SUFFIX,lofter.com,🎯 直连
+ - DOMAIN-SUFFIX,netease.com,🎯 直连
+ - DOMAIN-SUFFIX,ydstatic.com,🎯 直连
+ - DOMAIN-SUFFIX,sina.com,🎯 直连
+ - DOMAIN-SUFFIX,weibo.com,🎯 直连
+ - DOMAIN-SUFFIX,weibocdn.com,🎯 直连
+ - DOMAIN-SUFFIX,sohu.com,🎯 直连
+ - DOMAIN-SUFFIX,sohucs.com,🎯 直连
+ - DOMAIN-SUFFIX,sohu-inc.com,🎯 直连
+ - DOMAIN-SUFFIX,v-56.com,🎯 直连
+ - DOMAIN-SUFFIX,sogo.com,🎯 直连
+ - DOMAIN-SUFFIX,sogou.com,🎯 直连
+ - DOMAIN-SUFFIX,sogoucdn.com,🎯 直连
+ - DOMAIN-SUFFIX,steamcontent.com,🎯 直连
+ - DOMAIN-SUFFIX,steampowered.com,🎯 直连
+ - DOMAIN-SUFFIX,steamstatic.com,🎯 直连
+ - DOMAIN-SUFFIX,gtimg.com,🎯 直连
+ - DOMAIN-SUFFIX,idqqimg.com,🎯 直连
+ - DOMAIN-SUFFIX,igamecj.com,🎯 直连
+ - DOMAIN-SUFFIX,myapp.com,🎯 直连
+ - DOMAIN-SUFFIX,myqcloud.com,🎯 直连
+ - DOMAIN-SUFFIX,qq.com,🎯 直连
+ - DOMAIN-SUFFIX,qqmail.com,🎯 直连
+ - DOMAIN-SUFFIX,servicewechat.com,🎯 直连
+ - DOMAIN-SUFFIX,tencent.com,🎯 直连
+ - DOMAIN-SUFFIX,tencent-cloud.net,🎯 直连
+ - DOMAIN-SUFFIX,tenpay.com,🎯 直连
+ - DOMAIN-SUFFIX,wechat.com,🎯 直连
+ - DOMAIN,file-igamecj.akamaized.net,🎯 直连
+ - DOMAIN-SUFFIX,ccgslb.com,🎯 直连
+ - DOMAIN-SUFFIX,ccgslb.net,🎯 直连
+ - DOMAIN-SUFFIX,chinanetcenter.com,🎯 直连
+ - DOMAIN-SUFFIX,meixincdn.com,🎯 直连
+ - DOMAIN-SUFFIX,ourdvs.com,🎯 直连
+ - DOMAIN-SUFFIX,staticdn.net,🎯 直连
+ - DOMAIN-SUFFIX,wangsu.com,🎯 直连
+ - DOMAIN-SUFFIX,acg.rip,🎯 直连
+ - DOMAIN-SUFFIX,animebytes.tv,🎯 直连
+ - DOMAIN-SUFFIX,awesome-hd.me,🎯 直连
+ - DOMAIN-SUFFIX,broadcasthe.net,🎯 直连
+ - DOMAIN-SUFFIX,chdbits.co,🎯 直连
+ - DOMAIN-SUFFIX,classix-unlimited.co.uk,🎯 直连
+ - DOMAIN-SUFFIX,comicat.org,🎯 直连
+ - DOMAIN-SUFFIX,empornium.me,🎯 直连
+ - DOMAIN-SUFFIX,gazellegames.net,🎯 直连
+ - DOMAIN-SUFFIX,hdbits.org,🎯 直连
+ - DOMAIN-SUFFIX,hdchina.org,🎯 直连
+ - DOMAIN-SUFFIX,hddolby.com,🎯 直连
+ - DOMAIN-SUFFIX,hdhome.org,🎯 直连
+ - DOMAIN-SUFFIX,hdsky.me,🎯 直连
+ - DOMAIN-SUFFIX,icetorrent.org,🎯 直连
+ - DOMAIN-SUFFIX,jpopsuki.eu,🎯 直连
+ - DOMAIN-SUFFIX,keepfrds.com,🎯 直连
+ - DOMAIN-SUFFIX,madsrevolution.net,🎯 直连
+ - DOMAIN-SUFFIX,morethan.tv,🎯 直连
+ - DOMAIN-SUFFIX,m-team.cc,🎯 直连
+ - DOMAIN-SUFFIX,myanonamouse.net,🎯 直连
+ - DOMAIN-SUFFIX,nanyangpt.com,🎯 直连
+ - DOMAIN-SUFFIX,ncore.cc,🎯 直连
+ - DOMAIN-SUFFIX,open.cd,🎯 直连
+ - DOMAIN-SUFFIX,ourbits.club,🎯 直连
+ - DOMAIN-SUFFIX,passthepopcorn.me,🎯 直连
+ - DOMAIN-SUFFIX,privatehd.to,🎯 直连
+ - DOMAIN-SUFFIX,pterclub.com,🎯 直连
+ - DOMAIN-SUFFIX,redacted.ch,🎯 直连
+ - DOMAIN-SUFFIX,springsunday.net,🎯 直连
+ - DOMAIN-SUFFIX,tjupt.org,🎯 直连
+ - DOMAIN-SUFFIX,totheglory.im,🎯 直连
+ - DOMAIN-SUFFIX,343480.com,🎯 直连
+ - DOMAIN-SUFFIX,agefans.tv,🎯 直连
+ - DOMAIN-SUFFIX,baduziyuan.com,🎯 直连
+ - DOMAIN-SUFFIX,cdn9-okzy.com,🎯 直连
+ - DOMAIN-SUFFIX,com-hs-hkdy.com,🎯 直连
+ - DOMAIN-SUFFIX,czybjz.com,🎯 直连
+ - DOMAIN-SUFFIX,dandanzan.com,🎯 直连
+ - DOMAIN-SUFFIX,fjhps.com,🎯 直连
+ - DOMAIN-SUFFIX,kuyunbo.club,🎯 直连
+ - DOMAIN-SUFFIX,nfmovies.com,🎯 直连
+ - DOMAIN-SUFFIX,okokbo.com,🎯 直连
+ - DOMAIN-SUFFIX,sd-dykj.com,🎯 直连
+ - DOMAIN-SUFFIX,yhdm.tv,🎯 直连
+ - DOMAIN-SUFFIX,youkutv.cc,🎯 直连
+ - DOMAIN-SUFFIX,cn,🎯 直连
+ - DOMAIN-SUFFIX,115.com,🎯 直连
+ - DOMAIN-SUFFIX,360in.com,🎯 直连
+ - DOMAIN-SUFFIX,51ym.me,🎯 直连
+ - DOMAIN-SUFFIX,8686c.com,🎯 直连
+ - DOMAIN-SUFFIX,99.com,🎯 直连
+ - DOMAIN-SUFFIX,abchina.com,🎯 直连
+ - DOMAIN-SUFFIX,accuweather.com,🎯 直连
+ - DOMAIN-SUFFIX,aicoinstorge.com,🎯 直连
+ - DOMAIN-SUFFIX,air-matters.com,🎯 直连
+ - DOMAIN-SUFFIX,air-matters.io,🎯 直连
+ - DOMAIN-SUFFIX,aixifan.com,🎯 直连
+ - DOMAIN-SUFFIX,amd.com,🎯 直连
+ - DOMAIN-SUFFIX,b612.net,🎯 直连
+ - DOMAIN-SUFFIX,bdatu.com,🎯 直连
+ - DOMAIN-SUFFIX,beitaichufang.com,🎯 直连
+ - DOMAIN-SUFFIX,bjango.com,🎯 直连
+ - DOMAIN-SUFFIX,booking.com,🎯 直连
+ - DOMAIN-SUFFIX,bstatic.com,🎯 直连
+ - DOMAIN-SUFFIX,cailianpress.com,🎯 直连
+ - DOMAIN-SUFFIX,camera360.com,🎯 直连
+ - DOMAIN-SUFFIX,chaoxing.com,🎯 直连
+ - DOMAIN-SUFFIX,chaoxing.com,🎯 直连
+ - DOMAIN-SUFFIX,chinaso.com,🎯 直连
+ - DOMAIN-SUFFIX,chuimg.com,🎯 直连
+ - DOMAIN-SUFFIX,chunyu.mobi,🎯 直连
+ - DOMAIN-SUFFIX,cmbchina.com,🎯 直连
+ - DOMAIN-SUFFIX,cmbimg.com,🎯 直连
+ - DOMAIN-SUFFIX,ctrip.com,🎯 直连
+ - DOMAIN-SUFFIX,dfcfw.com,🎯 直连
+ - DOMAIN-SUFFIX,docschina.org,🎯 直连
+ - DOMAIN-SUFFIX,douban.com,🎯 直连
+ - DOMAIN-SUFFIX,doubanio.com,🎯 直连
+ - DOMAIN-SUFFIX,douyu.com,🎯 直连
+ - DOMAIN-SUFFIX,dxycdn.com,🎯 直连
+ - DOMAIN-SUFFIX,dytt8.net,🎯 直连
+ - DOMAIN-SUFFIX,eastmoney.com,🎯 直连
+ - DOMAIN-SUFFIX,eudic.net,🎯 直连
+ - DOMAIN-SUFFIX,feng.com,🎯 直连
+ - DOMAIN-SUFFIX,fengkongcloud.com,🎯 直连
+ - DOMAIN-SUFFIX,frdic.com,🎯 直连
+ - DOMAIN-SUFFIX,futu5.com,🎯 直连
+ - DOMAIN-SUFFIX,futunn.com,🎯 直连
+ - DOMAIN-SUFFIX,gandi.net,🎯 直连
+ - DOMAIN-SUFFIX,gcores.com,🎯 直连
+ - DOMAIN-SUFFIX,geilicdn.com,🎯 直连
+ - DOMAIN-SUFFIX,getpricetag.com,🎯 直连
+ - DOMAIN-SUFFIX,gifshow.com,🎯 直连
+ - DOMAIN-SUFFIX,godic.net,🎯 直连
+ - DOMAIN-SUFFIX,hicloud.com,🎯 直连
+ - DOMAIN-SUFFIX,hongxiu.com,🎯 直连
+ - DOMAIN-SUFFIX,hostbuf.com,🎯 直连
+ - DOMAIN-SUFFIX,huxiucdn.com,🎯 直连
+ - DOMAIN-SUFFIX,huya.com,🎯 直连
+ - DOMAIN-SUFFIX,ibm.com,🎯 直连
+ - DOMAIN-SUFFIX,infinitynewtab.com,🎯 直连
+ - DOMAIN-SUFFIX,ithome.com,🎯 直连
+ - DOMAIN-SUFFIX,java.com,🎯 直连
+ - DOMAIN-SUFFIX,jianguoyun.com,🎯 直连
+ - DOMAIN-SUFFIX,jianshu.com,🎯 直连
+ - DOMAIN-SUFFIX,jianshu.io,🎯 直连
+ - DOMAIN-SUFFIX,jidian.im,🎯 直连
+ - DOMAIN-SUFFIX,kaiyanapp.com,🎯 直连
+ - DOMAIN-SUFFIX,kaspersky-labs.com,🎯 直连
+ - DOMAIN-SUFFIX,keepcdn.com,🎯 直连
+ - DOMAIN-SUFFIX,kkmh.com,🎯 直连
+ - DOMAIN-SUFFIX,lanzous.com,🎯 直连
+ - DOMAIN-SUFFIX,licdn.com,🎯 直连
+ - DOMAIN-SUFFIX,linkedin.com,🎯 直连
+ - DOMAIN-SUFFIX,loli.net,🎯 直连
+ - DOMAIN-SUFFIX,luojilab.com,🎯 直连
+ - DOMAIN-SUFFIX,maoyan.com,🎯 直连
+ - DOMAIN-SUFFIX,maoyun.tv,🎯 直连
+ - DOMAIN-SUFFIX,meituan.com,🎯 直连
+ - DOMAIN-SUFFIX,meituan.net,🎯 直连
+ - DOMAIN-SUFFIX,mls-cdn.com,🎯 直连
+ - DOMAIN-SUFFIX,mobike.com,🎯 直连
+ - DOMAIN-SUFFIX,moke.com,🎯 直连
+ - DOMAIN-SUFFIX,mubu.com,🎯 直连
+ - DOMAIN-SUFFIX,myzaker.com,🎯 直连
+ - DOMAIN-SUFFIX,nim-lang-cn.org,🎯 直连
+ - DOMAIN-SUFFIX,nvidia.com,🎯 直连
+ - DOMAIN-SUFFIX,oracle.com,🎯 直连
+ - DOMAIN-SUFFIX,plex.tv,🎯 直连
+ - DOMAIN-SUFFIX,qdaily.com,🎯 直连
+ - DOMAIN-SUFFIX,qidian.com,🎯 直连
+ - DOMAIN-SUFFIX,qyer.com,🎯 直连
+ - DOMAIN-SUFFIX,qyerstatic.com,🎯 直连
+ - DOMAIN-SUFFIX,raychase.net,🎯 直连
+ - DOMAIN-SUFFIX,ronghub.com,🎯 直连
+ - DOMAIN-SUFFIX,ruguoapp.com,🎯 直连
+ - DOMAIN-SUFFIX,sankuai.com,🎯 直连
+ - DOMAIN-SUFFIX,scomper.me,🎯 直连
+ - DOMAIN-SUFFIX,seafile.com,🎯 直连
+ - DOMAIN-SUFFIX,sm.ms,🎯 直连
+ - DOMAIN-SUFFIX,smzdm.com,🎯 直连
+ - DOMAIN-SUFFIX,snapdrop.net,🎯 直连
+ - DOMAIN-SUFFIX,snwx.com,🎯 直连
+ - DOMAIN-SUFFIX,s-reader.com,🎯 直连
+ - DOMAIN-SUFFIX,sspai.com,🎯 直连
+ - DOMAIN-SUFFIX,subhd.tv,🎯 直连
+ - DOMAIN-SUFFIX,takungpao.com,🎯 直连
+ - DOMAIN-SUFFIX,teamviewer.com,🎯 直连
+ - DOMAIN-SUFFIX,tianyancha.com,🎯 直连
+ - DOMAIN-SUFFIX,tophub.today,🎯 直连
+ - DOMAIN-SUFFIX,udacity.com,🎯 直连
+ - DOMAIN-SUFFIX,uning.com,🎯 直连
+ - DOMAIN-SUFFIX,weather.com,🎯 直连
+ - DOMAIN-SUFFIX,weico.cc,🎯 直连
+ - DOMAIN-SUFFIX,weidian.com,🎯 直连
+ - DOMAIN-SUFFIX,xiachufang.com,🎯 直连
+ - DOMAIN-SUFFIX,xiaoka.tv,🎯 直连
+ - DOMAIN-SUFFIX,ximalaya.com,🎯 直连
+ - DOMAIN-SUFFIX,xinhuanet.com,🎯 直连
+ - DOMAIN-SUFFIX,xmcdn.com,🎯 直连
+ - DOMAIN-SUFFIX,yangkeduo.com,🎯 直连
+ - DOMAIN-SUFFIX,yizhibo.com,🎯 直连
+ - DOMAIN-SUFFIX,zhangzishi.cc,🎯 直连
+ - DOMAIN-SUFFIX,zhihu.com,🎯 直连
+ - DOMAIN-SUFFIX,zhihuishu.com,🎯 直连
+ - DOMAIN-SUFFIX,zhimg.com,🎯 直连
+ - DOMAIN-SUFFIX,zhuihd.com,🎯 直连
+ - DOMAIN,download.jetbrains.com,🎯 直连
+ - IP-CIDR,119.28.28.28/32,🎯 直连,no-resolve
+ - IP-CIDR,182.254.116.0/24,🎯 直连,no-resolve
+ - PROCESS-NAME,aria2c,🎯 直连
+ - PROCESS-NAME,Folx,🎯 直连
+ - PROCESS-NAME,NetTransport,🎯 直连
+ - PROCESS-NAME,Thunder,🎯 直连
+ - PROCESS-NAME,Transmission,🎯 直连
+ - PROCESS-NAME,uTorrent,🎯 直连
+ - PROCESS-NAME,WebTorrent,🎯 直连
+ - PROCESS-NAME,WebTorrent Helper,🎯 直连
+ - PROCESS-NAME,DownloadService,🎯 直连
+ - PROCESS-NAME,Weiyun,🎯 直连
+ - DOMAIN-KEYWORD,aria2,🎯 直连
+ - DOMAIN-KEYWORD,xunlei,🎯 直连
+ - DOMAIN-KEYWORD,yunpan,🎯 直连
+ - DOMAIN-KEYWORD,Thunder,🎯 直连
+ - DOMAIN-KEYWORD,XLLiveUD,🎯 直连
+ - GEOIP,CN,🎯 直连
+ - MATCH,🔰 节点选择
